@@ -10,6 +10,7 @@ var id = document.getElementById("header");
 var elem = document.createElement("h3");
 var content = document.createTextNode("I am currently viewing");
 elem.appendChild(content);
+
 setTimeout(() => {
     id.after(elem);
     id.remove();
